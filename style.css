@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: blue;
+}
+
+.cuadrado {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px white, 0px 20px 50px 50px black ;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 10px;
+   
+}
+
+.circulo1 {
+    background-color: blue;
+    position: absolute;
+    left: 10px;
+    box-shadow: 5px 5px 20px white, 0px 0px 25px 10px black;
+}
+
+.circulo2 {
+    position: absolute;
+    background-color: blueviolet;
+    right: 10px;
+    box-shadow: 5px 5px 20px yellowgreen, 0px 0px 25px 10px black;
+}
+.circulo3{
+    background-color: green;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 5px 5px 20px yellowgreen, 0px 0px 25px 10px black;
+}
+
+.estrella {
+    position: absolute;
+    bottom: 30px;
+
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    box-shadow: 50px 50px 20px grey, 0px 0px 25px 10px black;
+}
